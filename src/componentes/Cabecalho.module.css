@@ -8,5 +8,5 @@
 .conteiner p{
     font-size: 2rem;
     color: var(--cinza-claro);
-
+    padding: 20px;
 }

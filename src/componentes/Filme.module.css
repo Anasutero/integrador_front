@@ -1,0 +1,19 @@
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.conteiner img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.conteiner figcaption{
+    margin: 12px 0;
+}
+
+.conteiner p{
+    padding:6px 0;
+  
+}
