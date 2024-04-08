@@ -1,15 +1,12 @@
 .conteiner{
     background-color: var(--roxo-escuro);
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 300px;
-    height: 700px;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
     transition: transform .25s;
+    margin: 10px 5px; /*espaçamento do de baixo com o de cma */
 }
-
 
 .conteiner:hover{
     transform: scale(1.025);
