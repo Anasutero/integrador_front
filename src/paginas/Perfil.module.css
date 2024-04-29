@@ -1,8 +1,11 @@
 .conteiner{
     display: flex;
+    flex-direction: column;
     height: 100vh;
     justify-content: center;
     align-items: center;
+  background-color: rgb(183, 217, 240);
+
 }
 
 .formulario{
@@ -32,4 +35,10 @@
     margin-top: -6px;
     margin-bottom: 1rem;
     color: rgb(24, 69, 192);
+}
+
+.titulo{
+color: var(--roxo-escuro);
+font-size: 2rem;
+margin-bottom: 25px;
 }
