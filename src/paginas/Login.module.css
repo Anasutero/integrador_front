@@ -1,27 +1,54 @@
-.conteiner{
+/* Login.module.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.conteiner {
     display: flex;
-    height: 100vh;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    background-image: url('https://static.vecteezy.com/ti/fotos-gratis/p2/13724866-mapa-de-rotas-rodoviarias-direcoes-de-mapas-de-gps-de-navegacao-icone-de-simbolo-de-pino-de-pesquisa-rosa-marcadores-de-rota-de-viagem-de-destino-do-navegador-e-simbolo-de-tecnologia-moderna-renderizacao-em-3d-gratis-foto.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.formulario{
-    display: flex;
-    flex-direction: column;
-    background-color: var( --cinza-claro);
-    padding: 30px;
-    border-radius: 10px;
-}
-
-.campo{
-    margin-bottom: 10px;
-    padding: 5px;
-    border-radius: 6px;
-}
-
-.botao{
-    background-color: var(--roxo-escuro);
-    color: var( --cinza-claro);
-    padding: 10px;
+.formulario {
+    background-color: rgba(255, 255, 255, 0.288); /* Cor de fundo com transparência */
+    padding: 20px;
     border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin-bottom: 180px; /* Mover o formulário um pouco para cima */
 }
+
+.campo {
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.botao {
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #c9184a; 
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.autenticacao {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: normal; /* Remover o negrito */
+}
+
+

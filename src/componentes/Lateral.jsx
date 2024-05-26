@@ -7,15 +7,14 @@ export function Lateral(){
             <header>
             <img 
             className={estilos.imagemCabecalho}
-            src='https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=1025&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+            src='https://img.freepik.com/vector-premium/vista-superior-3d-mapa-punto-ubicacion-destino-vista-superior-aerea-limpia-mapa-ciudad-dia-calles-rios-mapa-urbano-blanco-concepto-navegador-mapas-gps_34645-1098.jpg'
             />
 
             <div className={estilos.perfil}>
                 <img 
                 className={estilos.avatar}
-                src='https://avatars.githubusercontent.com/u/129601393?v=4'
+                src='https://s3.amazonaws.com/ceabs-sites/blog.ceabs.com.br/static/wp-content/uploads/2017/09/13100855/diferenca-entre-bloqueador-localizador-rastreador-ceabs.jpg'
                 />
-                <strong>Ana</strong>
            </div>
            </header>
             <section>
@@ -23,23 +22,15 @@ export function Lateral(){
                 className={estilos.botao}
                 to='/inicial'
                 >
-                    Filmes
+                    Leitura Sensores
                 </Link>
 
                 <Link 
                 className={estilos.botao}
-                to='perfil'
+                to='sensor'
                 >
-                    Perfil
+                    Cadastro de sensores
                 </Link>
-
-                <Link 
-                className={estilos.botao}
-                to='sobre'
-                >
-                    Sobre
-                </Link>
-
 
 
 

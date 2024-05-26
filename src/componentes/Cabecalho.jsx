@@ -1,21 +1,23 @@
 import estilos from './Cabecalho.module.css'
-import {FilmReel, FilmStrip} from '@phosphor-icons/react'
+import {Lightning, } from '@phosphor-icons/react'
 
 export function Cabecalho(){
     return(
         <header className={estilos.conteiner}>
-            <FilmReel
+              <Lightning
             weight='duotone'
             size={32}
              color='#fff'
              />
-            <p>Recomendações</p>
+           
+            <p>Cidade Inteligente</p>
+            <Lightning
+            weight='duotone'
+            size={32}
+             color='#fff'
+             />
 
-            <FilmStrip
-            weight='duotone'
-            size={32}
-             color='#fff'
-             />
+           
         </header>
     )
 }
