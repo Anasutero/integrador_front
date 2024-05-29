@@ -1,4 +1,4 @@
-import estilos from './Sensor.module.css'
+import estilos from './CadSensor.module.css'
 import { useForm } from 'react-hook-form'
 import { z } from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
@@ -22,7 +22,7 @@ const schemaSensor = z.object({
     observacao: z.string().max(500, 'Máximo de 500 caracteres')
 });
 
-export function Sensor() {
+export function CadSensor() {
 
     const {
         register,

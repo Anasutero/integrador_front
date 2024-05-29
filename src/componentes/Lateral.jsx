@@ -26,11 +26,26 @@ export function Lateral(){
                 </Link>
 
                 <Link 
+                    className={estilos.botao}
+                    to='/inicial/localizacao'
+                >Mapa
+                </Link>
+                
+                <Link 
                 className={estilos.botao}
-                to='sensor'
+                to='cadsensor'
                 >
                     Cadastro de sensores
                 </Link>
+
+                <Link 
+                className={estilos.botao}
+                to='cadusuario'
+                >
+                    Cadastro de usuario
+                </Link>
+
+                
 
 
 
