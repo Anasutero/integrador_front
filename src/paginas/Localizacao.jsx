@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import Mapa from '../componentes/Mapa';
+import Mapa from '../componentes/Mapa'
 
 export function Localizacao() {
     const [pontos, setPontos] = useState([]);
@@ -13,7 +13,7 @@ export function Localizacao() {
                 const token = localStorage.getItem('access_token');
                 const response = await axios.get('http://127.0.0.1:8000/api/sensores/', {
                     headers: {
-                        'Authorization': `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzE3MDEyMDYzLCJpYXQiOjE3MTcwMTE3NjMsImp0aSI6IjlkYjBhZWEwNzNhNjQ0NzNhMDBmMWYwNTRhNWQ0NjA0IiwidXNlcl9pZCI6NX0.ZVWDctFG1tfzxKRNOjiV91RfG4eh3gN-A9ZkQQkXtGk`
+                        'Authorization': `Bearer ${token}`
                     }
                 });
 

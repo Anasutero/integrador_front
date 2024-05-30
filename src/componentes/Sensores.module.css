@@ -1,23 +1,69 @@
-.conteiner{
+/* Sensores.module.css */
+.container {
+    background-color: #fff; /* Fundo branco para o container */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     display: flex;
     flex-direction: column;
+    align-items: center;
+    color: rgb(0, 0, 0); /* Adicionado para alterar a cor do texto */
+}
+
+.identificador {
+    color: #000000; /* Cor do identificador */
+    font-size: 18px; /* Modificado o tamanho da fonte */
+    font-weight: 300; /* Adicionada a propriedade font-weight */
+    margin-bottom: 10px;
+}
+
+.icone {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background: linear-gradient(90deg, rgb(211, 9, 127) 9%, rgb(216, 111, 176) 100%); /* Gradiente rosa */
+    margin-bottom: 20px; /* Movido de .icone para .container */
     color: #fff;
 }
 
-.conteiner img{
-    width: 100%;
-    border-radius: 8px;
+.containerInfo {
+    width: 95%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    border-radius: 10px;
 }
 
-.conteiner figcaption{
-    padding: 12px 0;
-    text-align: center;
-    font-size: 1.25rem;
+.campo {
+    padding: 6px;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 8px;
 }
 
-.conteiner p{
-    padding:6px 0;
-    text-align: justify;
-   
-  
+.botao {
+    display: flex;
+    background-color: #131012; /* Substituindo a variável azul por rosa */
+    width: 95%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #f1ebeb;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao:hover {
+    background: linear-gradient(90deg, rgb(211, 9, 127) 9%, rgb(216, 111, 176) 100%); /* Gradiente rosa */
 }

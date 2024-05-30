@@ -1,0 +1,43 @@
+/* TabelaSensor.module.css */
+.body {
+    background-color: #f2f2f2; /* Cinza claro para o fundo do corpo */
+}
+
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* Fundo branco para o container */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.h2 {
+    color: #ff69b4; /* Rosa para o cabeçalho h2 */
+    text-align: center;
+    padding: 10px;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela th,
+.tabela td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd; /* Linhas divisórias cinza claro */
+    text-align: left;
+}
+
+.tabela th {
+    background-color: #333; /* Preto para o cabeçalho da tabela */
+    color: #fff; /* Texto branco para o cabeçalho */
+}
+
+.tabela tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Fundo cinza claro para linhas pares */
+}
+
+.tabela tbody tr:hover {
+    background-color: #ddd; /* Fundo cinza mais escuro ao passar o mouse */
+}
