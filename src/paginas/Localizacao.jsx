@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import Mapa from '../componentes/Mapa'
+import Mapa from '../componentes/Mapa';
 
 export function Localizacao() {
     const [pontos, setPontos] = useState([]);
@@ -18,6 +18,7 @@ export function Localizacao() {
                 });
 
                 const sensores = response.data;
+                console.log(sensores);
                 const pontos = sensores.map(sensor => ({
                     latitude: sensor.latitude,
                     longitude: sensor.longitude,
@@ -45,7 +46,6 @@ export function Localizacao() {
 
     return (
         <div>
-            <h1>Localização dos Sensores</h1>
             <Mapa pontos={pontos} />
         </div>
     );
